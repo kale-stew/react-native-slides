@@ -41,14 +41,15 @@ const theme = createTheme(
 // image assets
 /* eslint-disable no-undef */
 const images = {
-  FormidaLogo: require('./assets/new-formidable.png'),
-  SimpleTodo: require('./assets/todo.gif'),
-  CopyPaste: require('./assets/copy-paste.gif'),
   BrowserSample: require('./assets/in-browser.png'),
+  CopyPaste: require('./assets/copy-paste.gif'),
+  FormidaLogo: require('./assets/new-formidable.png'),
   NativeSample: require('./assets/in-react-native.png'),
+  React: require('./assets/react.png'),
+  Roadmap: require('./assets/roadmap.png'),
+  SimpleTodo: require('./assets/todo.gif'),
   StackNav: require('./assets/stack-navigator.gif'),
-  TabNav: require('./assets/tab-navigator.gif'),
-  React: require('./assets/react.png')
+  TabNav: require('./assets/tab-navigator.gif')
 };
 /* eslint-enable no-undef */
 
@@ -285,6 +286,18 @@ export default class Presentation extends Component {
               theme="light"
             />
           </Appear>
+        </Slide>
+
+        {/** THE FUTURE */}
+        <Slide bgColor="green">
+          <Heading size={4}>✨ The Future ✨</Heading>
+          <br />
+          <Image src={images.Roadmap} height="400px" />
+          <br />
+          <Code style={{ color: 'white' }}>
+            https://github.com/facebook/react-native/wiki/Roadmap
+          </Code>
+          <Notes>no more broken versions!</Notes>
         </Slide>
 
         {/** FIN */}
