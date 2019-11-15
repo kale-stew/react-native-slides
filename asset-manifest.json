@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/react-to-react-native/static/css/main.7909de89.chunk.css",
-    "main.js": "/react-to-react-native/static/js/main.2b8ec7a6.chunk.js",
-    "main.js.map": "/react-to-react-native/static/js/main.2b8ec7a6.chunk.js.map",
-    "runtime~main.js": "/react-to-react-native/static/js/runtime~main.6ab595c0.js",
-    "runtime~main.js.map": "/react-to-react-native/static/js/runtime~main.6ab595c0.js.map",
-    "static/js/2.f23b8af0.chunk.js": "/react-to-react-native/static/js/2.f23b8af0.chunk.js",
-    "static/js/2.f23b8af0.chunk.js.map": "/react-to-react-native/static/js/2.f23b8af0.chunk.js.map",
-    "index.html": "/react-to-react-native/index.html",
-    "precache-manifest.bae45d29ba947e55180051774db42e8d.js": "/react-to-react-native/precache-manifest.bae45d29ba947e55180051774db42e8d.js",
-    "service-worker.js": "/react-to-react-native/service-worker.js",
-    "static/css/main.7909de89.chunk.css.map": "/react-to-react-native/static/css/main.7909de89.chunk.css.map",
-    "static/media/copy-paste.gif": "/react-to-react-native/static/media/copy-paste.622b9dde.gif",
-    "static/media/in-browser.png": "/react-to-react-native/static/media/in-browser.c91b9e7c.png",
-    "static/media/in-react-native.png": "/react-to-react-native/static/media/in-react-native.1e1c04be.png",
-    "static/media/new-formidable.png": "/react-to-react-native/static/media/new-formidable.8cae3f23.png",
-    "static/media/react.png": "/react-to-react-native/static/media/react.47ce6e77.png",
-    "static/media/roadmap.png": "/react-to-react-native/static/media/roadmap.91d54853.png",
-    "static/media/stack-navigator.gif": "/react-to-react-native/static/media/stack-navigator.bb4aee5d.gif",
-    "static/media/tab-navigator.gif": "/react-to-react-native/static/media/tab-navigator.38258a7a.gif",
-    "static/media/todo.gif": "/react-to-react-native/static/media/todo.099c0502.gif"
-  }
+    "main.css": "/react-native-slides/static/css/main.7909de89.chunk.css",
+    "main.js": "/react-native-slides/static/js/main.8d3c85ad.chunk.js",
+    "main.js.map": "/react-native-slides/static/js/main.8d3c85ad.chunk.js.map",
+    "runtime-main.js": "/react-native-slides/static/js/runtime-main.8aaab3fd.js",
+    "runtime-main.js.map": "/react-native-slides/static/js/runtime-main.8aaab3fd.js.map",
+    "static/js/2.15ef64a2.chunk.js": "/react-native-slides/static/js/2.15ef64a2.chunk.js",
+    "static/js/2.15ef64a2.chunk.js.map": "/react-native-slides/static/js/2.15ef64a2.chunk.js.map",
+    "index.html": "/react-native-slides/index.html",
+    "precache-manifest.eaec144be696312bb0c2bd2e6bcd1443.js": "/react-native-slides/precache-manifest.eaec144be696312bb0c2bd2e6bcd1443.js",
+    "service-worker.js": "/react-native-slides/service-worker.js",
+    "static/css/main.7909de89.chunk.css.map": "/react-native-slides/static/css/main.7909de89.chunk.css.map",
+    "static/media/create-react-app.png": "/react-native-slides/static/media/create-react-app.f84a3ad9.png",
+    "static/media/create-react-native.png": "/react-native-slides/static/media/create-react-native.f08d1a18.png",
+    "static/media/new-formidable.png": "/react-native-slides/static/media/new-formidable.8cae3f23.png",
+    "static/media/platform-specific.png": "/react-native-slides/static/media/platform-specific.ef1dbc54.png",
+    "static/media/questions.png": "/react-native-slides/static/media/questions.e2743480.png",
+    "static/media/react-native.png": "/react-native-slides/static/media/react-native.910d75fd.png",
+    "static/media/react.png": "/react-native-slides/static/media/react.47ce6e77.png",
+    "static/media/roadmap.png": "/react-native-slides/static/media/roadmap.91d54853.png",
+    "static/media/wave.png": "/react-native-slides/static/media/wave.1cb8f83b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8aaab3fd.js",
+    "static/js/2.15ef64a2.chunk.js",
+    "static/css/main.7909de89.chunk.css",
+    "static/js/main.8d3c85ad.chunk.js"
+  ]
 }
