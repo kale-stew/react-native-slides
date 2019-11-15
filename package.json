@@ -1,30 +1,37 @@
 {
   "name": "react-to-react-native",
-  "description": "React to React Native: How Hard Could It Be?",
   "version": "1.0.0",
+  "description": "React to React Native: How Hard Could it Be?",
   "author": "Kylie Stewart <kylieastewart@gmail.com>",
-  "homepage": "https://kale-stew.github.io/react-to-react-native",
+  "homepage": "https://kyliestewart.tech/react-native-slides",
+  "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "build": "npm run clean && react-scripts build",
     "clean": "rm -rf ./build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
-    "test": "react-scripts test --env=jsdom"
+    "start": "react-scripts start"
   },
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1",
-    "spectacle": "^5.5.0"
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "^3.2.0",
+    "spectacle": "5.x"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
